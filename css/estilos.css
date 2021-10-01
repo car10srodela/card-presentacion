@@ -110,6 +110,10 @@ body {
     align-items: center;
 }
 
+.button a {
+    height: 28px;
+}
+
 .button.facebook:hover {
     background-color: #1877f2;
 }
