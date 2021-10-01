@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-image: url("https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(81, 81, 81, .5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    width: 600px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    overflow: hidden;
+
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .5);
+}
+
+.header {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+.header img {
+    width: 100%;
+    position: absolute;
+    top: -50px;
+}
+
+.information {
+    width: 100%;
+    height: 290px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information .logo{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: 5px solid #ffffff;
+    position: absolute;
+    top: -100px;
+}
+
+.information .logo img {
+    width: 100%;
+}
+
+.info  h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 70px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #707070;
+}
+
+.social-networks {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks img {
+    height: 28px;
+}
+
+.button {
+    width: 75px;
+    height: 50px;
+    margin: 0 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #bbbbbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button.facebook:hover {
+    background-color: #1877f2;
+}
+
+.button.twitter:hover {
+    background-color: #1DA1F2;
+}
+
+.button.instagram:hover {
+    background-color: #E1306C;
+}
+
+.button.youtube:hover {
+    background-color: #FF0000;
+}
+
+.button.github:hover {
+    background-color: #333333;
+}
